@@ -23,7 +23,8 @@
 
 ### 🚫 Function Length
 
-* No function or method should exceed **100 lines**.
+* **Function Length**: No function or method should exceed **50 lines**.
+* **File Size:** Limit files to 300 lines; split larger files into modules
 * If it's getting too long, break it into smaller, logically cohesive helpers.
 
 ### 🧠 Complexity Check
@@ -38,6 +39,9 @@
 ### 📄 Docstrings
 
 * Every **public method**, **function**, and **class** must include a docstring in [Google-style](https://google.github.io/styleguide/pyguide.html#38-comments-and-docstrings):
+* AI should prioritize self-documenting code but include comments where logic is non-trivial
+* Keep README updated with install, setup, and run instructions
+* Document API endpoints using standardized formats
 
 ### 📚 Internal Documentation
 
@@ -66,4 +70,3 @@ When in doubt:
 * Write clean, testable units.
 * Document why it matters.
 * Refactor until it’s smooth.
-
